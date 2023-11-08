@@ -26,7 +26,7 @@
 ### Task 4 - child routes and useNavigation
 
 1. Add a new components called `Bouncer.js` and `Trigger.js` to the `src/components` folder
-2. Add children routes to the Lab page, that renders the `Trigger` and an index page, and `Bouncer` under the `/bouncer/:name` path
+2. Add children routes to the Lab page, that renders the `Trigger` and an index page, and `Bouncer` under the `bouncer/:name` path
 3. Use Outlet in the Lab component to render the children
 4. In the Trigger component get a random name from the mock library (`randomName()`) and render a link that navigates to the Bouncer page `bouncer/${name}`
 5. In the Bouncer component, render the name from the route params
