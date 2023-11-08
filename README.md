@@ -8,8 +8,8 @@
 2. Create a browser router with a root route and 2 children routes in `index.js`, and render the `RouterProvider` instead of the `App` component.
 3. The root route will be rendering the `App.js` element.
 4. One of the children routes will be an `index` route, rendering the `Home.js` element.
-5. The other will be at the `/lab` path, rendering the `Lab.js` element.
-6. in `App.js`, create navigation links that allow switching between the two pages
+5. The other child route will be at the `/lab` path, rendering the `Lab.js` element.
+6. in `App.js`, create navigation links that allow switching between the two pages, and render the `<Outlet />` component to render the children routes.
 
 ### Task 2 - add a loader to the Lab page
 
